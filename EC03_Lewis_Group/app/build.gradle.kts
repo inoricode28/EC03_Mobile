@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "pe.edu.idat.ec03_lewis_group"
-        minSdk = 24
+        minSdk = 17
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
