@@ -15,5 +15,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
+        binding.btnacceder.setOnClickListener{
+            val usuario = binding.txtemail.text.toString()
+            val contrasena = binding.txtcontraseA.text.toString()
+
+        }
     }
 }
