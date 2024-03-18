@@ -19,6 +19,12 @@ class MainActivity : AppCompatActivity() {
             val usuario = binding.txtemail.text.toString()
             val contrasena = binding.txtcontraseA.text.toString()
 
+            if (usuario == "altared" && contrasena == "SYS123"){
+                val intent = Intent(this, Formulario_List::class.java)
+                startActivity(intent)
+            } else {
+                Toast.makeText(this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
